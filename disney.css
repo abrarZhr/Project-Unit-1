@@ -1,0 +1,265 @@
+*{
+    
+    
+ font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+
+header{
+    background-color: rgb(1, 2, 31);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    width: fit-content;      
+   
+} 
+
+
+
+
+.main{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr ;
+     
+}
+
+
+
+
+
+
+.navbar .btn{
+    background-color:rgb(238, 233, 232);
+    border:rgb(194, 16, 40) solid;
+}
+
+.main img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    top :-30px;
+    border-radius: 12px;
+    transition: all 1s;
+    
+
+}
+
+section:hover img{
+    top: - 100px;
+    border-radius:50% ;
+    transform: rotate(720deg);
+    display: flex;
+}
+
+
+section{
+    /* background-color: #fff; */
+    height: 350px;
+    width: 400px;
+    margin:200px auto 0 auto ;
+    position: relative;
+    transition: all 5.s;
+    border-radius: 12px;
+
+    
+
+}
+
+section:hover{
+    height: 400px;
+}
+.continar {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    transition: all 2s;
+opacity: 0;
+
+
+}
+
+section:hover .continar{
+    display: block;
+    opacity: 1;
+}
+
+
+
+
+.imageof{
+
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+    border-radius: 8px;
+    display: block;
+}
+
+
+#grid{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+ 
+
+}
+#grid div {
+    
+    border: ridge ;
+    margin: 10px;
+}
+
+
+.nameof{
+
+    margin: 40px;
+    padding: 10px;
+
+   
+  }
+ 
+
+.imageof:hover{
+    opacity: 0.3;
+    
+}
+
+
+
+.button{
+   border: white solid;
+}
+
+.divBTN{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+
+ .icon{
+ 
+   width: 30px;
+   height: 30px;
+}
+
+.icon :hover{
+
+    height: 10px;
+    color:tomato;
+  
+}
+
+.favlist{
+
+    display: flex;
+    margin: 10px;
+    padding: 10px;    
+}
+#testCard{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.card{
+    width:fit-content;
+    height: fit-content;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+    width: 50px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+
+.caver{
+
+    background-image: url("./image/disney-world-50th-anniversary-commercial-fireworks-enchantment-3-1536x864.jpg");
+    background-size: cover;
+    height: calc(100vh - 64px);
+    margin: 50px;
+}
+
+.caver .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    
+ 
+      }
+
+      .caver .text h1{
+        margin: 0px;
+        color: black;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: top;  
+      }
+
+
+
+    
+@media screen and (min-width: 768px) and (max-width:1023px){
+    /* 
+        taplet */
+        .main {
+            display: grid;
+           grid-template-columns: 1fr 1fr 1fr; 
+           
+     
+       }
+   
+       #grid{
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr ; 
+           
+        
+        }
+    
+    }
+    
+    
+@media screen and (max-width: 767px) {
+    
+    /* mobail */
+  
+    .main {
+         display: grid;
+        grid-template-columns: 1fr; 
+        
+  
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr  ; 
+        
+     
+     }
+
+
+
+}
+
