@@ -23,4 +23,4 @@ This is the repo for my first project at Tuwaiq Academy, a website featuring 50 
 ## Links:
 API : https://disneyapi.dev/
 figma : https://www.figma.com/file/0Ua7QXfjpBZY6I00VPGgiU/project?node-id=2%3A2
-Also if you want to check my project I upload it and here is the link for you 🤍 => 
+Also if you want to check my project I upload it and here is the link for you 🤍 =>  https://abrarzhr.github.io/Project-Unit-1/
